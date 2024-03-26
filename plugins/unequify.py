@@ -1,10 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
 
 
 import re, asyncio
@@ -19,8 +12,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 CLIENT = CLIENT()
 COMPLETED_BTN = InlineKeyboardMarkup(
    [
-      [InlineKeyboardButton('📢 Updates', url='https://t.me/Madflix_Bots')],
-      [InlineKeyboardButton('💬 Support', url='https://t.me/MadflixBots_Support')]
+      [InlineKeyboardButton('📢 Updates', url='https://t.me/FilmyFather_bots')],
+      [InlineKeyboardButton('💬 Support', url='https://t.me/YuvRaJ_4502Bot')]
    ]
 )
 
@@ -106,13 +99,3 @@ async def unequify(client, message):
    await bot.stop()
    
 
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
