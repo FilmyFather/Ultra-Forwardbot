@@ -1,12 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
-
-
 import os
 from config import Config
 
@@ -19,7 +10,7 @@ class Translation(object):
   
 ➻ Click Help Button To Know More About Me
   
-<b>Bot Is Made By @Madflix_Bots</b>"""
+<b>Bot Is Made By @FilmyFather_Bots</b>"""
 
 
   HELP_TXT = """<b><u>🛠️ Help</b></u>
