@@ -45,10 +45,10 @@ class Translation(object):
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+<b>📢 Channel :</b> <a href='https://t.me/FilmyFather_Bots'>FilmyFather Bots</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/YuvRaJ_4502bot'>Yuvraj</a>
 
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot Made By :</b> @FilmyFather_Bots"""
   
   STATUS_TXT = """<b><u>Bot Status</u></b>
   
@@ -131,15 +131,3 @@ Before Forwarding The Messages Click The Yes Button Only After Checking The Foll
 
 
 
-
-
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
