@@ -31,8 +31,8 @@ async def start(client, message):
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
     reply_markup = InlineKeyboardMarkup(main_buttons)
-    filmyfather_bots= await message.reply_sticker("CAACAgUAAxkBAAKKRmYCyHp2N7EuTFh_2jNLvKAM2Z6RAAInAQACyJRkFOI9YoCRRKaaNAQ")
-    await asyncio.sleep(2)
+    m=await message.reply_sticker("CAACAgQAAxkBAAEKeqNlIpmeUoOEsEWOWEiPxPi3hH5q-QACbg8AAuHqsVDaMQeY6CcRojAE") 
+    await asyncio.sleep(1)
     await filmyfather_bots.delete()
     text=Translation.START_TXT.format(user.mention)
     await message.reply_text(
