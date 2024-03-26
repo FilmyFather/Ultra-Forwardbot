@@ -29,18 +29,12 @@ main_buttons = [[
 async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
-        await db.add_user(user.id, user.first_name)
+      await db.add_user(user.id, user.first_name)
     reply_markup = InlineKeyboardMarkup(main_buttons)
-    m=await message.reply_sticker("CAACAgQAAxkBAAEKeqNlIpmeUoOEsEWOWEiPxPi3hH5q-QACbg8AAuHqsVDaMQeY6CcRojAE") 
-    await asyncio.sleep(1)
-    await filmyfather_bots.delete()
-    text=Translation.START_TXT.format(user.mention)
-    await message.reply_text(
-        text=text,
-        reply_markup=reply_markup,
-        quote=True
-    )
-
+    await client.send_message(
+        chat_id=message.chat.id,
+        reply_markup=InlineKeyboardMarkup(main_buttons),
+        text=Translation.START_TXT.format(message.from_user.first_name))
 
 
 #==================Restart Function==================#
@@ -55,8 +49,6 @@ async def restart(client, message):
     await msg.edit("<i>Server Restarted Successfully ✅</i>")
     os.execl(sys.executable, sys.executable, *sys.argv)
     
-
-
 #==================Callback Functions==================#
 
 @Client.on_callback_query(filters.regex(r'^help'))
